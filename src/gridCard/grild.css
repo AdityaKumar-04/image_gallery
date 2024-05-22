@@ -1,0 +1,32 @@
+.grid-container{
+    padding: 15px;
+}
+.grid-container .title{
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 35px;
+    font-weight: 600;
+    color: blue;
+    text-align: start;
+}
+.grid-item img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grid-item{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+.grid-image{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,2fr));
+    justify-content: space-between;
+    gap: 15px;
+}
+.grid-item-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}

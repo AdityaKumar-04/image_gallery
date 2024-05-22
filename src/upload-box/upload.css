@@ -1,0 +1,32 @@
+.upload{
+    width: 100%;
+    padding: 150px 0;
+    background-image: url("https://media.istockphoto.com/id/1321956565/photo/breathtaking-view-of-maldives-tropical-beach-during-sunrise.jpg?s=2048x2048&w=is&k=20&c=MzQnF5zJ-EBTl7vUVbJHGj17hHBxDluU4cg_i-B5eoU=");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload .upload_container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-left:15px;
+}
+.upload .upload_container input{
+    width: 100%;
+    text-align: center;
+}
+.upload .upload_container button{
+    width: 20%;
+    padding: 10px 0;
+    background-color: rgba(21, 217, 152, 0.727);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
